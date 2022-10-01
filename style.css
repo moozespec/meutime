@@ -1,0 +1,282 @@
+@media only screen and (max-width: 480px) {  img {    width: 100%;  }}
+
+
+html, body {   
+  width: 95%;        
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #18722e; 
+  font-family: "Open Sans", sans-serif;
+  padding-right: 2em;
+  padding-left: 2em;
+  font-size:20px;
+  margin: 0 auto
+}
+
+
+.header {
+  text-align: center;
+  color: white;
+  background-color: #80cb6c;
+  height: 25%;
+  width: 100%;
+  padding-left: 0,1vh;
+  padding-bottom: 10px;
+  border-radius: 10px;
+
+  
+  
+}
+
+#imgpos1 { /*escudo atual do palmeiras*/
+  
+	left: 90px; /* posiciona para a esquerda */ 
+	top: 70px; /* posiciona para baixo */
+  
+}
+
+#imgpos2 { /*escudo paletra italia*/
+   
+	right: 140px; /* posiciona para a direita, QUANTO MAIOR O VALOR, MAIS PARA A ESQUERDA ELE SE MOVIMENTA! Tambem pode-se usar os valores de forma negativa. */ 
+	top: 70px; /* posiciona para baixo */
+}
+
+
+h1 {
+  position: relative;
+  
+  font-size: 2.5em;
+  color: #033300;
+  justify-content: center;
+  
+}
+
+h3 {
+  text-align: center;
+  color: #004201;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+}
+
+
+
+p { 
+  margin-left: 2%;
+  text-align: left;
+  margin-bottom: 2cm;
+  color: gray;
+  
+}
+
+
+
+
+.quadradohistoria, .quadradoliberta {
+  display: table;
+  width: auto;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  font-size: 1.0em;
+  color: gray;
+  background-color: whitesmoke;
+}
+
+
+
+.quadrado1 {
+	margin: 5px;
+	background-color: #0adb23;
+	text-align: center;
+  vertical-align: top;
+  width: 400px;
+  border-radius: 10px;
+  font-size: 0.8em;
+  display: table;
+}
+
+
+.quadrado2 {
+  margin: 5px;
+	background-color: #c7c7c7;
+	text-align: center;
+  
+  width: 400px;
+  border-radius: 10px;
+  font-size: 0.8em;
+  
+}
+
+.quadrado3 {
+  margin: 5px;
+	background-color: #2143e8;
+	text-align: center;
+  
+  width: 400px;
+  border-radius: 10px;
+  font-size: 0.8em;
+
+  
+
+}
+
+.quadrado4 {
+  margin: 5px;
+	background-color: #94ffc2;
+	text-align: center;
+  
+  width: 400px;
+  border-radius: 10px;
+  font-size: 0.8em;
+  
+}
+ 
+.container {
+  flex-wrap: wrap;
+ 
+  display: flex;
+  justify-content: center;
+    
+  
+   
+  
+}
+
+
+
+
+.footer {
+  background: #80cb6c;
+  padding-top: 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  
+  
+}
+
+.nick {
+  color: black;
+  font-size: 1.0em;
+  text-align: center;
+
+  
+}
+
+
+.joemir {
+  font-size: 0.5em;
+  color: white;
+  text-align: right;
+
+
+  
+} 
+
+
+
+
+
+
+
+
+.menu {
+  width: 90.2%; 
+  display: flex;
+  justify-content: center;
+  position: fixed;        
+  background-color: #053d10ff;
+  z-index: 99;
+  border-radius: 7px;
+  top: 0;
+  height: 8vh;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+
+nav a {
+  color: #fff;
+  margin: auto 20px auto 40px;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  float: left;
+  list-style: none;
+  margin-left: 20px;
+}
+
+
+.titulos {
+  text-align: center; 
+   
+}
+
+
+
+
+.cla1999 { /*cla1999 = copa libertadores da america 1999*/
+  display: block;
+	border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  width: 95%;
+  
+  
+}
+
+
+
+#submenu {
+  padding: 5px;
+  background-color: #878787;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+
+
+.link-1 {
+  transition: 0.4s;
+  color: gold;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.link-1:hover {
+  background-color: white;
+  color: #EEA200;
+  padding: 15px 10px;
+}
+
+
+
+
+
+
+#textocali, #textosantos, #textoflamengo { /*esses parametros podem mudar os textos sobre a libertadores*/
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: white;
+  color: gray;
+  margin-bottom: 20px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 20px;
+}
+
